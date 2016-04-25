@@ -1,8 +1,13 @@
 body {
-	background-color: #F44336;
+	background-color: #90CAF9;
 	height: 100%;
 	margin: 0;
-	font-family: 'Lato';
+	font-family: 'Lora';
+}
+
+#birds img {
+	position: absolute;
+	z-index: -1;
 }
 
 #header {
