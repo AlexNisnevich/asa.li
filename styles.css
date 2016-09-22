@@ -6,24 +6,17 @@ html {
 }
 
 body {
-	background-image: url("images/grunge-birds.jpg");
-  background-position: -138px -150px;
-  background-size: 112% 139%;
   font-family: 'Cinzel', serif;
   font-size: 2em;
   margin: 0;
-  margin-left: 1em;
   height: 100%;
   padding: 0;
-
-	/*
-	background-image: url("/Users/alex/Downloads/photos-for-background/imhhage4.JPG");
-  background-position: -188px -100px;
-  background-size: 113% 183%;
-	*/
 }
 
 #header-title {
+  position: fixed;
+  top: 0;
+  left: 0.5em;
 	font-size: 1.5em;
   font-weight: normal;
 }
