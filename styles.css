@@ -1,5 +1,8 @@
 html {
 	height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 body {
@@ -8,11 +11,13 @@ body {
   background-size: 112% 139%;
   font-family: 'Cinzel', serif;
   font-size: 2em;
+  margin: 0;
   margin-left: 1em;
   height: 100%;
+  padding: 0;
 
 	/*
-	background-image: url("/Users/alex/Downloads/photos-for-background/image4.JPG");
+	background-image: url("/Users/alex/Downloads/photos-for-background/imhhage4.JPG");
   background-position: -188px -100px;
   background-size: 113% 183%;
 	*/
