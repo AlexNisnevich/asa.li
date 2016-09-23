@@ -2,6 +2,9 @@ html {
 	height: 100%;
   margin: 0;
   padding: 0;
+}
+
+html.no-scroll {
   overflow: hidden;
 }
 
@@ -32,14 +35,54 @@ body {
 	margin-right: 1em;
 }
 
-#under-construction {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 2em;
-  position: fixed;
-  top: 50%;
+#links a {
+  color: black;
+  text-decoration: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
+
+#links b {
+  font-size: 1.2em;
+}
+
+#content {
+  position: relative;
+  top: 125px;
+  display: table;
   width: 100%;
+  font-family: 'David Libre', serif;
+  font-size: 0.7em;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#content > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#content.two-col > div {
+  width: 50%;
+}
+
+#content.two-col #left {
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+}
+
+#content p {
+  padding: 0.5em 1em;
+  padding-right: 3em;
+}
+
+#content img {
+  width: 100%;
+}
+
+#content h2 {
   text-align: center;
-  color: #FF5722;
 }
 
 #bottom-text {
@@ -47,3 +90,34 @@ body {
 	bottom: 1em;
 	right: 1em;
 }
+
+.works > div {
+  float: left;
+  width: 260px;
+  height: 200px;
+  margin: 0.8em;
+  font-size: 0.7em;
+  position: relative;
+}
+
+.works > div .work-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.works > div a {
+  text-decoration: none;
+}
+
+.works > div img {
+  width: 100%;
+}
+
+.works > div .title {
+  font-style: italic;
+}
+
+
+
+
