@@ -30,5 +30,13 @@
   </div>
 
   <div id="bottom-text">Editor, Storyteller</div>
+
+  <script>
+    var video = document.getElementsByTagName('video')[0];
+
+    video.onended = function(e) {
+      document.location.href = '/about.html';
+    };
+  </script>
 </body>
 </html>
