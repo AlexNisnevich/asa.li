@@ -63,13 +63,16 @@ body {
   vertical-align: top;
 }
 
-#content.two-col > div {
-  width: 50%;
+#content.two-col {
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 #content.two-col #left {
+  width: 400px;
   padding-top: 0.3em;
   padding-left: 0.3em;
+  text-align: right;
 }
 
 #content p {
@@ -77,8 +80,9 @@ body {
   padding-right: 3em;
 }
 
-#content img {
-  width: 100%;
+#content #photo {
+  width: 350px;
+  margin-top: 30px;
 }
 
 #content h2 {
@@ -93,7 +97,7 @@ body {
 
 .works {
   display: block !important;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
